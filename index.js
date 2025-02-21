@@ -78,18 +78,6 @@ document.addEventListener("DOMContentLoaded", initialLoad)
  * - Each new selection should clear, re-populate, and restart the Carousel.
  * - Add a call to this function to the end of your initialLoad function above to create the initial carousel.
  */
-// async function handleBreedChange(event) {
-//   const breedSelect = event.target;
-//   breedSelect.disabled = true;  // Disable select while loading
-  
-//   try {
-//     // ... existing code ...
-//   } catch (error) {
-//     console.error('Error handling breed change:', error);
-//   } finally {
-//     breedSelect.disabled = false;  // Re-enable select
-//   }
-// }
 
     // Fetch images for the selected breed
 
